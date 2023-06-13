@@ -1,2 +1,14 @@
 /*font-family: 'Alfa Slab One', cursive;
 font-family: 'Lato', sans-serif;*/
+footer{
+    background-color: rgb(152, 152, 188);
+
+}
+#footer-text{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+}
+#introduccion-historia{
+    background: url(img/ERNO.jpg);
+}
