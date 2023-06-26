@@ -9,6 +9,6 @@ footer{
     text-align: center;
 
 }
-#introduccion-historia{
-    background: url(img/ERNO.jpg);
+#historia{
+    background-image:url(img/ERNO.jpg);
 }
