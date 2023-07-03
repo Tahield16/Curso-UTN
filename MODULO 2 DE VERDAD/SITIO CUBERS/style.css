@@ -44,3 +44,16 @@ footer{
     font-family:'Alfa Slab One', cursive ;
     color: rgba(0, 0, 0, 0.623);
 }
+figure{
+    position: relative;
+    padding:5px;
+}
+figcaption{
+    position: absolute;
+    margin-top:0%;
+    display:none;
+}
+figure:hover figcaption{
+    background-color: rgb(89, 89, 177);
+    display: block;
+}
