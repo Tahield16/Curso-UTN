@@ -48,6 +48,11 @@ footer{
 
     
 }
+.texto{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
 .texto-img{
     text-align: center;
     font-family:'Alfa Slab One', cursive ;
@@ -93,6 +98,7 @@ figure:hover figcaption{
    
     
 }
+ 
 .c-img{
     width:110%;
     height:800px;
@@ -124,16 +130,22 @@ figure:hover figcaption{
 
 }
 
-.WCA-IMG{
+.WCA-historia{
     display:flex; 
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     padding: 5% 5%;
 
 
 }
-.WCA-IMG>img{
-    width:550px;
+.WCA-historia>img{
+    width:700px;
     height:570px;
-    margin-right:2%;
+    margin-left: 2%;
+    object-fit: cover;
+    
 
+}
+.categorias{
+    
 }
