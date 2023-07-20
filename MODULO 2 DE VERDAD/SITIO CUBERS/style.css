@@ -146,6 +146,42 @@ figure:hover figcaption{
     
 
 }
-.categorias{
+/* .categorias{
     
+} */
+.item_lista{
+    display: block;
+}
+.explicacion{
+    display:inline-block;
+    width:800px;
+    height:100vh;
+    border-color: black;
+}
+#logo-img{
+    width: 900px;
+    height: 500px;
+    margin-left:6.5%;
+    margin-bottom: 1%;
+    object-fit: cover;
+}
+.card-link{
+    text-decoration: none;
+    
+}
+.noticias{
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(150px,1fr)
+    );
+
+}
+.card{
+ width:80% !important;
+ height:auto;
+ box-shadow: 3px 13px 48px -1px rgba(0,0,0,0.65);
+ -webkit-box-shadow: 3px 13px 48px -1px rgba(0,0,0,0.65);
+ -moz-box-shadow: 3px 13px 48px -1px rgba(0,0,0,0.65);;
 }
